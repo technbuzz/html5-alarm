@@ -1,7 +1,7 @@
 const timeEl = document.querySelector('time');
 const audio = document.querySelector('audio');
 
-const alarmTime = "1/9/2020 3:58:15 PM";
+const alarmTime = "1/9/2020 4:07:00 PM";
 function printTime(){
   const time = new Date();
   const timeString = `${time.getHours()} : ${time.getMinutes()} :   ${time.getSeconds()}`;
@@ -24,4 +24,3 @@ setInterval(()=> {
   printTime()
 }, 1000)
 
-window.onload = func
